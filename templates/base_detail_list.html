@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+    <div class="navbar clearfix">
+			<div class="subnav_con fl">
+				<h1>全部商品分类</h1>
+				<span></span>
+				<ul class="subnav">
+					<li><a href="#" class="fruit">新鲜水果</a></li>
+					<li><a href="#" class="seafood">海鲜水产</a></li>
+					<li><a href="#" class="meet">猪牛羊肉</a></li>
+					<li><a href="#" class="egg">禽类蛋品</a></li>
+					<li><a href="#" class="vegetables">新鲜蔬菜</a></li>
+					<li><a href="#" class="ice">速冻食品</a></li>
+				</ul>
+			</div>
+			<ul class="navlist fl">
+				<li><a href="">首页</a></li>
+				<li class="interval">|</li>
+				<li><a href="">手机生鲜</a></li>
+				<li class="interval">|</li>
+				<li><a href="">抽奖</a></li>
+			</ul>
+		</div>
+
+
+    {% block main_content %}
+        <div class="center_con clearfix">
+		<ul class="subnav fl">
+			<li><a href="#model01" class="fruit">新鲜水果</a></li>
+			<li><a href="#model02" class="seafood">海鲜水产</a></li>
+			<li><a href="#model03" class="meet">猪牛羊肉</a></li>
+			<li><a href="#model04" class="egg">禽类蛋品</a></li>
+			<li><a href="#model05" class="vegetables">新鲜蔬菜</a></li>
+			<li><a href="#model06" class="ice">速冻食品</a></li>
+		</ul>
+		<div class="slide fl">
+			<ul class="slide_pics">
+				<li style="left: -760px;"><img src="../static/images/slide.jpg" alt="幻灯片"></li>
+				<li style="left: -760px;"><img src="../static/images/slide02.jpg" alt="幻灯片"></li>
+				<li style="left: 0px;"><img src="../static/images/slide03.jpg" alt="幻灯片"></li>
+				<li style="left: -760px;"><img src="../static/images/slide04.jpg" alt="幻灯片"></li>
+			</ul>
+			<div class="prev"></div>
+			<div class="next"></div>
+			<ul class="points"><li class=""></li><li class=""></li><li class="active"></li><li class=""></li></ul>
+		</div>
+		<div class="adv fl">
+			<a href="#"><img src="../static/images/adv01.jpg"></a>
+			<a href="#"><img src="../static/images/adv02.jpg"></a>
+		</div>
+	</div>
+
+    {% endblock main_content %}
+
+
+{% endblock body %}
