@@ -94,7 +94,8 @@ DATABASES = {
         'NAME': 'dailyfresh',
         'USER': 'root',
         'PASSWORD': 'root',
-        'HOST': 'localhost',
+        'HOST': 'Python2019*',
+        # 'HOST': 'localhost',
         'PORT': '3306'
     }
 }
