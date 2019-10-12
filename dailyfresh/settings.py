@@ -27,7 +27,7 @@ SECRET_KEY = '_g!)!%@nvz8)8)rzbgi(kvj7d$8&vz8yu&)+v_b5+$(etc_xgi'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -183,7 +183,7 @@ LOGIN_URL='/user/login'
 CACHES = {
     "default": {
         "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://192.168.114.130:6379/9",
+        "LOCATION": "redis://121.40.207.159:6379/9",
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
