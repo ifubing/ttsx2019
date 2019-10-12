@@ -27,7 +27,8 @@ SECRET_KEY = '_g!)!%@nvz8)8)rzbgi(kvj7d$8&vz8yu&)+v_b5+$(etc_xgi'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+# ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ['121.40.207.159', 'localhost', '0.0.0.0:8000', '127.0.0.1']
 
 
 # Application definition

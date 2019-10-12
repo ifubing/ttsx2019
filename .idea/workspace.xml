@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78ab1d92-f51e-4d4c-b49d-e85da1b13622" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dailyfresh/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/dailyfresh/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -348,7 +349,7 @@
       <workItem from="1570773846321" duration="559000" />
       <workItem from="1570783969192" duration="596000" />
       <workItem from="1570805693022" duration="757000" />
-      <workItem from="1570829447050" duration="8728000" />
+      <workItem from="1570829447050" duration="9764000" />
     </task>
     <servers />
   </component>
