@@ -249,12 +249,12 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Django server.dailyfresh" />
-      <item itemvalue="Python.22" />
-      <item itemvalue="Python.csdn文章管理" />
       <item itemvalue="Python.01-英译汉" />
       <item itemvalue="Python.11" />
+      <item itemvalue="Python.22" />
+      <item itemvalue="Python.csdn文章管理" />
       <item itemvalue="Python.one" />
+      <item itemvalue="Django server.dailyfresh" />
     </list>
     <recent_temporary>
       <list>
