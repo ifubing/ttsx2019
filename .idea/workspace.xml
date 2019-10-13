@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="78ab1d92-f51e-4d4c-b49d-e85da1b13622" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dailyfresh/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/dailyfresh/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +61,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled6" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -349,7 +348,11 @@
       <workItem from="1570773846321" duration="559000" />
       <workItem from="1570783969192" duration="596000" />
       <workItem from="1570805693022" duration="757000" />
-      <workItem from="1570829447050" duration="9764000" />
+      <workItem from="1570829447050" duration="10184000" />
+      <workItem from="1570874991541" duration="2000" />
+      <workItem from="1570876074898" duration="157000" />
+      <workItem from="1570881308589" duration="1264000" />
+      <workItem from="1570929091632" duration="1851000" />
     </task>
     <servers />
   </component>
@@ -361,7 +364,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -399,6 +404,11 @@
           <url>file://C:/ProgramData/Anaconda3/Lib/site-packages/django/views/generic/base.py</url>
           <line>60</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/a0test/爬虫-登陆后可见的页面爬取/csdn文章管理.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
