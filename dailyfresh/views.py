@@ -7,18 +7,16 @@ from celery_tasks.tasks import one
 
 from django.contrib import auth
 def test(request):
+    import redis
+    # redis://121.40.207.159:6379/9
+    conn = redis.StrictRedis(host="121.40.207.159", port=6379, db=9)
+    keys = conn.keys()
+    print(keys)
+    print(conn)
 
-    user = request.user
-    print('user，登陆状态时')
-    print(user)
-
-    auth.logout(request)
-    user = request.user
-    print('user，退出登陆以后')
-    print(user)
-
-    print('user is authentic')
-    print(user.is_authenticated)
+    import django_redis
+    conn = django_redis.get_redis_connection('default')
+    print(conn)
 
     return render(request,"test.html")
 
