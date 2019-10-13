@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78ab1d92-f51e-4d4c-b49d-e85da1b13622" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/apps/goods/migrations/0002_goods_goodssku.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/goods/migrations/0003_goodsimage_indexgoodsbanner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/goods/migrations/0004_indexpromotionbanner_indextypegoodsbanner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/order/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/order/migrations/0002_ordergoods.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/586d8e43-8e07-4cdb-9962-2f3bdcc34013.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/586d8e43-8e07-4cdb-9962-2f3bdcc34013.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dailyfresh/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/dailyfresh/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/goods/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/goods/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/order/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/order/models.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -250,12 +257,12 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Django server.dailyfresh" />
-      <item itemvalue="Python.22" />
-      <item itemvalue="Python.csdn文章管理" />
       <item itemvalue="Python.01-英译汉" />
       <item itemvalue="Python.11" />
+      <item itemvalue="Python.22" />
+      <item itemvalue="Python.csdn文章管理" />
       <item itemvalue="Python.one" />
+      <item itemvalue="Django server.dailyfresh" />
     </list>
     <recent_temporary>
       <list>
@@ -361,7 +368,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
