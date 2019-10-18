@@ -216,8 +216,9 @@ def resend_active_mail(request, uid):
     """ 重新发送激活邮件"""
     # 1，购建一个发送邮件的内容
     # a，构建加密的数据
+
     mima = make_mima_by_uid(uid)  # str类型的密码
-    url = "http://127.0.0.1:8000/user/active/{}".format(mima)
+    url = "http://121.40.207.159/user/active/{}".format(mima)
     print('生成的密码是:')
     print(url)
     # 2，发送邮件
@@ -262,10 +263,24 @@ class UserInfoView(LoginRequiredMixin, View):
         user = request.user
         address = Address.objects.get_default_address(user)
 
+        # 获得redis连接
+        import django_redis
+        conn = django_redis.get_redis_connection('default')
+
+        # 获取数据
+        history_key = "history_{}".format(user.id)   # history_21
+        sku_ids = conn.lrange(history_key,0,4)  # [b'6',b'1']
+
+        from goods.models import GoodsSKU
+        goods_res = list()  # [6号商品，1号商品]
+        for id in sku_ids:  # [b'6',b'1']
+            goods = GoodsSKU.objects.get(id=id)  # 模型类.objects.get(条件)  1,查到了得行对象。 2，查不到，报错。 3 查到多个也报错。
+            goods_res.append(goods)
         # 获取用户的历史浏览记录
         return render(request, "user_center_info.html",
                       {'page':'user',
-                       'address': address
+                       'address': address,
+                       'goods_li': goods_res,  # [6号商品，1号商品]
                        })
 
 

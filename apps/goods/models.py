@@ -3,7 +3,7 @@ from db.base_model import BaseModel
 from tinymce.models import HTMLField
 # Create your models here.
 
-
+# 第一阶段 .......................数码表
 class GoodsType(BaseModel):
     '''商品类型模型类'''
     name = models.CharField(max_length=20, verbose_name='种类名称')
@@ -109,3 +109,4 @@ class IndexPromotionBanner(BaseModel):
         db_table = 'df_index_promotion'
         verbose_name = "主页促销活动"
         verbose_name_plural = verbose_name
+
