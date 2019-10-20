@@ -8,5 +8,6 @@ app_name = "goods"
 urlpatterns = [
     # path('register/', views.register, name='register'),  # 后台管理
     # path('register_handle/', views.register_handle, name='register_handle'),  # 注册处理
-    re_path(r'^$', views.index, name='index'),
+    # re_path(r'^$', views.index, name='index'),
+    re_path(r'^$', views.IndexView.as_view(), name='index'),
 ]

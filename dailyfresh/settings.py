@@ -195,10 +195,5 @@ CACHES = {
 SESSION_ENGINE = "django.contrib.sessions.backends.cache"
 SESSION_CACHE_ALIAS = "default"
 
-
-# SESSION_ENGINE = 'redis_sessions.session'
-# SESSION_REDIS_HOST = '192.168.114.128'
-# SESSION_REDIS_PORT = 6379
-# SESSION_REDIS_DB = 2
-# SESSION_REDIS_PASSWORD = ''
-# SESSION_REDIS_PREFIX = 'session'
+# 上传文件的目录保存
+MEDIA_ROOT = os.path.join(BASE_DIR, 'static/media')
